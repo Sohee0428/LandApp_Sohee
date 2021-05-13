@@ -43,7 +43,7 @@ class RoomAdapter(val mContext: Context,
 
         descriptionTxt.text = roomData.description
 
-        addressAndFloorTxt.text = roomData.address
+        addressAndFloorTxt.text = "${roomData.address}, ${roomData.getFormattedFloor()}"
 
 
 
