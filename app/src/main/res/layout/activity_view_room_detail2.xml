@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewRoomDetailActivity2">
+
+    <ImageView
+        android:id="@+id/roomImg2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/roomImg2">
+
+        <TextView
+            android:id="@+id/priceTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2억 8,500"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:id="@+id/descriptionTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="방에 대한 설명"
+            android:layout_marginTop="7dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a0a0a0"
+        app:layout_constraintTop_toBottomOf="@id/LinearLayout1"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/text1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="행정 구역"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/addressTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울시 동대문구"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a0a0a0"
+        app:layout_constraintTop_toBottomOf="@id/LinearLayout2"/>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/text2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="층수"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/floorTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="반지하"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a0a0a0"
+        app:layout_constraintTop_toBottomOf="@id/LinearLayout3"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

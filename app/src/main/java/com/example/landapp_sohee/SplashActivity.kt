@@ -11,7 +11,9 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        val myHandler = Handler(Looper.getMainLooper())
+//        각종 데이터 확인 등 => 앱을 실행하기 전에 필요한 사전 작업 수행행
+
+       val myHandler = Handler(Looper.getMainLooper())
 
         myHandler.postDelayed( {
 

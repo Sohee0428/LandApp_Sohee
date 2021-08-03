@@ -9,19 +9,16 @@
         android:roundIcon="@mipmap/ic_house"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".ViewRoomDetailActivity2" />
+        <activity android:name=".MainActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity
-            android:name=".ViewRoomDetailActivity"
-            android:theme="@style/Theme.LandApp_Sohee" />
-        <activity android:name=".MainActivity">
-        </activity>
-    </application>
+<activity android:name=".SplashActivity"></activity><activity
+android:name=".ViewRoomDetailActivity"
+android:theme="@style/Theme.LandApp_Sohee" /><activity android:name=".MainActivity" /></application>
 
-</manifest>
+    </manifest>
